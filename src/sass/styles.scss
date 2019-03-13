@@ -1,0 +1,13 @@
+@font-face {
+    font-family: OpenSans;
+    src: url('../fonts/OpenSans-Regular.ttf');
+}
+
+body {
+    min-height: 100vh;
+    background: rgb(94, 0, 58);
+    color: white;
+    background-image: url('../images/cat.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+}
