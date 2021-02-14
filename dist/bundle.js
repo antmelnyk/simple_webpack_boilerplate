@@ -16,7 +16,7 @@
   \*********************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _sass_styles_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../sass/styles.scss */ \"./src/sass/styles.scss\");\n\nconsole.log('Webpack Boilerplate');\n\n//# sourceURL=webpack:///./src/javascript/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _sass_styles_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../sass/styles.scss */ \"./src/sass/styles.scss\");\n\nconsole.log('Webpack Boilerplate');\n\nvar fn = function fn() {\n  return console.log(\"Check out bundle.js, this ES6 arrow function was transformed to classic function!\");\n};\n\n//# sourceURL=webpack:///./src/javascript/index.js?");
 
 /***/ }),
 
