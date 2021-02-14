@@ -1,12 +1,1 @@
-@font-face {
-  font-family: OpenSans;
-  src: url(fonts/629a55a7e793da068dc580d184cc0e31.ttf);
-}
-body {
-  min-height: 100vh;
-  background: #5e003a;
-  color: white;
-  background-image: url(images/e1d5874c81ec7d690e1de0cadb0d3b8b.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-}
+@font-face{font-family:OpenSans;src:url(fonts/17e98b9e5586529b13ccb1f7af16861c.ttf)}body{min-height:100vh;background:#5e003a;color:#fff;background-image:url(images/4c52d540e23ee49add3d3cb157648ded.jpg);background-position:50%;background-repeat:no-repeat}
