@@ -18,7 +18,7 @@ Done! Open index.html in browser for a cat image.
 ----
 
 ### Notice about production mode and postcss.config.js
-In *postcss.config.js* there is a check for **process.env.NODE_ENV** variable. The thing is even if you set Webpack mode to production it *won't* automatically change Node environment variable.
+In *postcss.config.js* there is a commented out check for **process.env.NODE_ENV** variable. Keep in mind that even if you set Webpack mode to production it *won't* automatically change Node environment variable.
 
 The simplest way to configure this is to install *cross-env* package:
 ```
@@ -35,7 +35,7 @@ Then just add another npm script in *package.json* for production mode:
 
 Now when you run `npm run build-production` the *process.env.NODE_ENV* variable will be production and postcss.config.js check is going to work:
 ```javascript
-if(process.env.NODE_ENV === 'production') {
+if (process.env.NODE_ENV === 'production') {
     module.exports = {
         plugins: [
             require('autoprefixer'),
